@@ -1,0 +1,44 @@
+
+body {
+  // background: ;
+  // background-image: url("../../img/abstract-carvern-003_1080x1920.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.navbar {
+  background: rgb(249, 250, 0);
+}
+
+#logo-container {
+background: #f9fa00;
+transition: top 0.7s;
+}
+
+#menu {
+  margin-left: auto;
+}
+.img {
+  width: 100%;
+}
+
+.nav-link:hover {
+  // background: #212121;
+  border-radius: 20px;
+  color: #ffffff;
+}
+
+hr {
+  // border: .1rem;
+  background: #ffffff;
+  color: #ffffff;
+  // border-color: #ebb617;
+}
+
+#menu-container {
+  padding: 0;
+}
+
+.bungee {
+  font-family: 'New Times Roman', cursive;
+}

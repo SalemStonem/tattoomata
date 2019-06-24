@@ -1,0 +1,33 @@
+body {
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+.navbar {
+  background: #f9fa00; }
+
+#logo-container {
+  background: #f9fa00;
+  -webkit-transition: top 0.7s;
+  transition: top 0.7s; }
+
+#menu {
+  margin-left: auto; }
+
+.img {
+  width: 100%; }
+
+.nav-link:hover {
+  border-radius: 20px;
+  color: #ffffff; }
+
+hr {
+  background: #ffffff;
+  color: #ffffff; }
+
+#menu-container {
+  padding: 0; }
+
+.bungee {
+  font-family: 'New Times Roman', cursive; }
+
+/*# sourceMappingURL=style.css.map */
