@@ -35,10 +35,34 @@ hr {
   // border-color: #ebb617;
 }
 
+.mt-10 {
+  margin-top: 8rem;
+}
+
 #menu-container {
   padding: 0;
 }
 
+#p-hover-instagram:hover {
+  padding-left: 2.5rem;
+  background: rgb(249, 250, 0);
+}
+
+#p-hover-facebook:hover {
+  padding-left: 2.5rem;
+  background: rgb(249, 250, 0);
+}
+
 .bungee {
   font-family: 'New Times Roman', cursive;
+}
+
+.hr-separator {
+  border: 1px solid rgb(96, 96, 96);
+  border-radius: 5px;
+}
+
+.rounded-right-pill {
+    border-top-right-radius: 3rem!important;
+    border-bottom-right-radius: 3rem!important;
 }

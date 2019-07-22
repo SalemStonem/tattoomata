@@ -24,10 +24,29 @@ hr {
   background: #ffffff;
   color: #ffffff; }
 
+.mt-10 {
+  margin-top: 8rem; }
+
 #menu-container {
   padding: 0; }
 
+#p-hover-instagram:hover {
+  padding-left: 2.5rem;
+  background: #f9fa00; }
+
+#p-hover-facebook:hover {
+  padding-left: 2.5rem;
+  background: #f9fa00; }
+
 .bungee {
   font-family: 'New Times Roman', cursive; }
+
+.hr-separator {
+  border: 1px solid #606060;
+  border-radius: 5px; }
+
+.rounded-right-pill {
+  border-top-right-radius: 3rem !important;
+  border-bottom-right-radius: 3rem !important; }
 
 /*# sourceMappingURL=style.css.map */
