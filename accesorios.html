@@ -9,64 +9,66 @@
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <link rel="stylesheet" href="assets/css/style.css">
-  <link rel="stylesheet" href="assets/css/swiper.css">
   <link rel="shortcut icon" href="img/favicon.png">
   <title>Accesorios</title>
 </head>
 
 <body>
-  <div id="menu-container" class="container-fluid">
-    <div id="logo-container" class="container-fluid text-center col-sm-12 d-none d-lg-block">
-      <a href="home.html" class="navbar-brand">
-        <img src="img/tattoomata 2-min.jpg" alt="Logo" width="350px" height="auto">
-      </a>
-    </div>
-    <!-- Menu -->
-    <nav id="navbar-menu" class="navbar navbar-light navbar-expand-md">
-      <div class="container">
-        <form class="form-inline col-12 col-lg-6 justify-content-center d-none d-lg-block">
-          <input class="form-control col-8" type="search" placeholder="Buscar" aria-label="Search">
-          <button class="btn btn-outline-success" type="submit">Buscar</button>
-        </form>
-        <a href="home.html" class="navbar-brand d-lg-none">
-          <img src="img/tattoomata 2-min.jpg" alt="Logo" width="250px" height="auto">
+  <header class="header">
+    <nav id="menu-container" class="container-fluid">
+      <div id="logo-container" class="container-fluid text-center col-sm-12 d-none d-lg-block">
+        <a href="home.html" class="navbar-brand">
+          <img src="img/tattoomata 2-min.jpg" alt="Logo" width="350px" height="auto">
         </a>
-        <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#menu-principal" aria-controls="menu-principal" aria-expanded="false" aria-label="menu prro">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-
-        <div class="collapse navbar-collapse" id="menu-principal">
-          <ul class="navbar-nav text-center" id="menu">
-            <li class="nav-item">
-              <a class="nav-link" href="home.html">Inicio</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="nosotros.html">Nosotros</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="productos.html">Productos</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="servicios.html">Servicios</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="cuidado.html">Cuidado del tatuaje</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="contacto.html">Contacto</a>
-            </li>
-            <li class="class-link d-md-none">
-              <form class="form-inline col-12 col-lg-4 justify-content-center">
-                <input class="form-control col-8" type="search" placeholder="Buscar" aria-label="Search">
-                <button class="btn btn-outline-success" type="submit">Buscar</button>
-              </form>
-            </li>
-          </ul>
-        </div>
-
       </div>
+      <!-- Menu -->
+      <nav id="navbar-menu" class="navbar navbar-light navbar-expand-md">
+        <div class="container">
+          <div class="form-inline col-12 col-lg-6 justify-content-center d-none d-lg-block">
+            <input id="buscador" class="form-control col-8" type="search" placeholder="Buscar" aria-label="Search">
+            <button id="send" class="btn btn-outline-success" type="submit">Buscar</button>
+          </div>
+          <a href="home.html" class="navbar-brand d-lg-none">
+            <img src="img/tattoomata 2-min.jpg" alt="Logo" width="250px" height="auto">
+          </a>
+          <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#menu-principal" aria-controls="menu-principal" aria-expanded="false" aria-label="menu prro">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="menu-principal">
+            <ul class="navbar-nav text-center" id="menu">
+              <li class="nav-item">
+                <a class="nav-link" href="home.html">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="nosotros.html">Nosotros</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="productos.html">Productos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="servicios.html">Servicios</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contacto.html">Contacto</a>
+              </li>
+              <li class="class-link d-md-none">
+                <form class="form-inline col-12 col-lg-4 justify-content-center">
+                  <input class="form-control col-8" type="search" placeholder="Buscar" aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit">Buscar</button>
+                </form>
+              </li>
+            </ul>
+            <div class="row m-0 justify-content-center d-md-none">
+              <div class="col text-center"><img src="img/fb.png" alt=""></div>
+              <div class="col text-center"><img src="img/in.png" alt=""></div>
+            </div>
+          </div>
+
+        </div>
+      </nav>
     </nav>
-  </div>
+  </header>
   <!-- Menu -->
 
   <nav aria-label="breadcrumb">
@@ -76,7 +78,18 @@
       <li class="breadcrumb-item active" aria-current="page">Accesorios</li>
     </ol>
   </nav>
-
+  <nav class="header position-fixed">
+    <div class="position-fixed d-none d-lg-block">
+      <div id="p-hover-instagram" class="mt-5 py-1 pr-2 rounded-right-pill shadow">
+        <a href="https://www.facebook.com/tattoomata/" target="_blank" rel="noopener noreferrer"><img src="img/facebook-1.png" alt=""></a>
+      </div>
+    </div>
+    <div class="position-fixed mt-10 d-none d-lg-block">
+      <div id="p-hover-facebook" class="mt-2  py-1 pr-2 rounded-right-pill shadow">
+        <a href="https://www.instagram.com/explore/locations/1021589683/tattoo-mata" target="_blank" rel="noopener noreferrer"> <img src="img/instagram-1.png" alt=""></a>
+      </div>
+    </div>
+  </nav>
   <!-- contenido -->
   <div class="container my-3">
     <!-- carroussel -->
@@ -332,23 +345,8 @@
   <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-  <script src="assets/js/swiper.js" charset="utf-8"></script>
   <script src="assets/js/functions.js" charset="utf-8"></script>
 </body>
-<script>
-  var swiper = new Swiper('.swiper-container', {
-    slidesPerView: 1,
-    spaceBetween: 30,
-    loop: true,
-    pagination: {
-      el: '.swiper-pagination',
-      clickable: true,
-    },
-    navigation: {
-      nextEl: '.swiper-button-next',
-      prevEl: '.swiper-button-prev',
-    },
-  });
-</script>
+
 
 </html>

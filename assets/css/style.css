@@ -32,11 +32,11 @@ hr {
 
 #p-hover-instagram:hover {
   padding-left: 2.5rem;
-  background: #f9fa00; }
+  background: white; }
 
 #p-hover-facebook:hover {
   padding-left: 2.5rem;
-  background: #f9fa00; }
+  background: white; }
 
 .bungee {
   font-family: 'New Times Roman', cursive; }
@@ -48,5 +48,8 @@ hr {
 .rounded-right-pill {
   border-top-right-radius: 3rem !important;
   border-bottom-right-radius: 3rem !important; }
+
+.header {
+  z-index: 1500; }
 
 /*# sourceMappingURL=style.css.map */

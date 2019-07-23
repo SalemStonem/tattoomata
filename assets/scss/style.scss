@@ -45,12 +45,12 @@ hr {
 
 #p-hover-instagram:hover {
   padding-left: 2.5rem;
-  background: rgb(249, 250, 0);
+  background: rgb(255, 255, 255);
 }
 
 #p-hover-facebook:hover {
   padding-left: 2.5rem;
-  background: rgb(249, 250, 0);
+  background: rgb(255, 255, 255);
 }
 
 .bungee {
@@ -65,4 +65,8 @@ hr {
 .rounded-right-pill {
     border-top-right-radius: 3rem!important;
     border-bottom-right-radius: 3rem!important;
+}
+
+.header {
+  z-index: 1500;
 }
