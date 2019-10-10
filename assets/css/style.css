@@ -2,6 +2,40 @@ body {
   background-repeat: no-repeat;
   background-size: cover; }
 
+@media (max-width: 1200px) {
+  legend {
+    font-size: calc(1.275rem + 0.3vw); }
+
+  .h1,
+  h1 {
+    font-size: calc(1.375rem + 1.5vw); }
+
+  .h2,
+  h2 {
+    font-size: calc(1.325rem + 0.9vw); }
+
+  .h3,
+  h3 {
+    font-size: calc(1.3rem + 0.6vw); }
+
+  .h4,
+  h4 {
+    font-size: calc(1.275rem + 0.3vw); }
+
+  .display-1 {
+    font-size: calc(1.725rem + 5.7vw); }
+
+  .display-2 {
+    font-size: calc(1.675rem + 5.1vw); }
+
+  .display-3 {
+    font-size: calc(1.575rem + 3.9vw); }
+
+  .display-4 {
+    font-size: calc(1.475rem + 2.7vw); }
+
+  .close {
+    font-size: calc(1.275rem + 0.3vw); } }
 .navbar {
   background: #f9fa00; }
 
@@ -51,5 +85,53 @@ hr {
 
 .header {
   z-index: 1500; }
+
+#wallpaper-button {
+  background: url("../../img/cover-2.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #545454;
+  background-attachment: fixed;
+  background-blend-mode: lighten; }
+
+#wallpaper-button-1 {
+  background: url("../../img/cover3.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: rgba(77, 77, 77, 0.1);
+  background-attachment: fixed;
+  background-blend-mode: hard-light; }
+
+.zoom {
+  background-color: green;
+  -webkit-transition: -webkit-transform 0.2s;
+  transition: -webkit-transform 0.2s;
+  transition: transform 0.2s;
+  transition: transform 0.2s, -webkit-transform 0.2s;
+  /* Animation */
+  margin: 0 auto; }
+
+.zoom:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+  /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */ }
+
+.ir-arriba {
+  display: none;
+  width: 70px;
+  padding: 5px;
+  font-size: 20px;
+  color: #fff;
+  cursor: pointer;
+  bottom: 20px;
+  right: 20px;
+  z-index: 1100; }
+
+.icon-arrow-up2 {
+  width: 100%;
+  background-image: url("../../img/arrow-up-red.png");
+  right: 20px; }
 
 /*# sourceMappingURL=style.css.map */
