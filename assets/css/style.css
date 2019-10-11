@@ -120,7 +120,7 @@ hr {
 
 .ir-arriba {
   display: none;
-  width: 70px;
+  width: 70px !important;
   padding: 5px;
   font-size: 20px;
   color: #fff;
