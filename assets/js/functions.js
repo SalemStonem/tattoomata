@@ -162,23 +162,35 @@ $(document).ready(function() {
       case 'starbrite colors':
         location.href = "starbrite.html";
         break;
+      case 'puntas':
+      case 'puntas cortas':
+      case 'puntas largas':
+      case 'largas':
+      case 'cortas':
+      case 'agujas':
+      case 'tubos':
+        location.href = "agujas.html";
+        break;
+      case 'xcentricas':
+        location.href = "xcentricas.html";
+        break;
       default:
         document.getElementById("buscador").placeholder = "No encontrado";
     }
   });
 
 
-  $('.ir-arriba').click(function(){
-		$('body, html').animate({
-			scrollTop: '0px'
-		}, 300);
-	});
+  $('.ir-arriba').click(function() {
+    $('body, html').animate({
+      scrollTop: '0px'
+    }, 300);
+  });
 
-	$(window).scroll(function(){
-		if( $(this).scrollTop() > 0 ){
-			$('.ir-arriba').slideDown(300);
-		} else {
-			$('.ir-arriba').slideUp(300);
-		}
-	});
+  $(window).scroll(function() {
+    if ($(this).scrollTop() > 0) {
+      $('.ir-arriba').slideDown(300);
+    } else {
+      $('.ir-arriba').slideUp(300);
+    }
+  });
 });
