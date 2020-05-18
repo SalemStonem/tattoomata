@@ -74,7 +74,7 @@ $(document).ready(function() {
       case 'tubos y agujas':
       case 'grips':
       case 'grip':
-        location.href = "agujas-y-tubos.html";
+        location.href = "agujas.html";
         break;
       case 'accesorios':
       case 'acesorios':
@@ -155,6 +155,7 @@ $(document).ready(function() {
         location.href = "kuro-sumi.html";
         break;
       case 'starbrite':
+      case 'starbride':
       case 'tintas starbrite':
       case 'tinta starbrite':
       case 'star':
@@ -162,6 +163,12 @@ $(document).ready(function() {
       case 'starbrite colors':
         location.href = "starbrite.html";
         break;
+        case 'radian':
+        case 'radiant':
+        case 'Radian':
+        case 'Radiant':
+          location.href = "radiant.html";
+          break;
       case 'puntas':
       case 'puntas cortas':
       case 'puntas largas':
